@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        display: block;
+    }
+    .header-content{
+        display: block;
+        margin-left: 150px;
+    }
+    .popular_collection{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* Shared Styles */
+.btn-primary{
+    background:rgb(251, 2, 143);
+    color: #fff;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px;
+}
+section{
+    margin-bottom: 130px;
+}
+.main-area{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* Start Navbar Design */
+.nav-bar{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link > ul{
+    display: flex;
+}
+.nav-link > ul > li{
+    list-style: none;
+    padding: 20px;
+}
+.nav-link > ul > li > a{
+    text-decoration: none;
+}
+
+/* Header Content Area */
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.right-content{
+    width: 560px;
+}
+.right-content h1{
+    font-size: 60px;
+}
+.right-content p{
+    font-size: 1.20rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: justify;
+}
+.left-content{
+    margin-right: 50px;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    position: relative;    
+}
+.content-image{
+    position:absolute;
+    top:50px;
+    left: 40px;
+}
+/* Sponsor  */
+.sponsor-logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 25px;
+}
+.collection-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.popular_collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 60px;
+    column-gap: 40px;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    padding-right: 20px;
+}
+.collection-card{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.collection-card img{
+    border-radius: 10px;
+}
+.collection-card h3{
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.collection-card h4{
+    font-size: 1.20rem;
+    margin: 10px 0;
+    font-weight: 700;
+}
+.collection-card p{
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #6f6d6d;
+}
+.see-more{
+    display: block;
+    text-align: right;
+    margin-right: 50px;
+    font-size: 1.25rem;
+    color: rgb(255, 4, 84);
+}
+/* Start Featured Section Area */
+.featured{
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.featured-right h2{
+    font-size: 2.7rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.featured-right p{
+    font-size: 1.15rem;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+/* Start Footer Section */
+.footer-section{
+    margin-top: 130px;
+    background-color: black;
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+.text-color{
+    color:#fff;
+}
+.footer-content h3{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.footer-content span{
+    display: block;
+    margin: 15px 0px;
+    font-size: 1.25rem;
+    font-weight: 550;
+}
+.footer-content p{
+    font-size: 1.25rem;
+    font-weight: 550;
+}
